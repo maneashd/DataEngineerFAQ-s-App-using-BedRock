@@ -1,25 +1,21 @@
 # Data Engineering FAQ's with RAG using Bedrock
-
 ![Project Architecture](ScreenShots/Screenshot6.png)
-# How to run?
 
-## 1.Create a new environment
-'''bash
-conda create -n llmapp python=3.8 -y
-'''
+## Overview
+This Project depicts the easy and programmatical approach to create a User intterface where a user can ask questions regarding Data Engineering using Large Language Models(LLM's) using Langchain framework and Amazon BedRock!
 
-## 2. Activate the environment
+## Technologies Used
+- Langchain
+- Amazon BedRock
+- Streamlit
+- Faiss-cpu
 
-'''bash
-conda activate llmapp
-'''
 
-## 3.Install the requirements package
-'''bash
-pip install -r requirements.txt
-'''
+# How to run the application.
 
-## 4. run application using Streamlit
-'''bash
-streamlit run main.py
-'''
+- conda create -n llmapp python=3.8 -y //Create a new environment
+- conda activate llmapp //Activate the environment
+- pip install -r requirements.txt //Install the requirements package
+- pip install -U langchain-community //Install Langchain community
+- streamlit run main.py //run application using Streamlit
+
