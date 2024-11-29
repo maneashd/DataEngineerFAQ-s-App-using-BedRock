@@ -1,7 +1,7 @@
 # EndToEnd-RAG-Using-AWSBedRock
 
 
-## How to run?
+# How to run?
 
 ## 1.Create a new environment
 '''bash
