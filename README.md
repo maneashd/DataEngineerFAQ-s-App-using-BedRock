@@ -156,6 +156,8 @@ if __name__ == "__main__":
 - Once the app is launched we click the Store Vector button, which in the back end collects the pdf document from the 'data' folder then uses the embedding model to create the vectors and save it in the 'faiss_local' folder.
 ![Vector Store](ScreenShots/Screenshot1.png)
 
+=============
+
 - Once the buton is clicked it will take time to process.
 ![Vector Store](ScreenShots/Screenshot2.png)
 
