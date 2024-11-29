@@ -1,6 +1,6 @@
-# EndToEnd-RAG-Using-AWSBedRock
+# Data Engineering FAQ's with RAG using Bedrock
 
-
+![Project Architecture](ScreenShots/Screenshot6.png)
 # How to run?
 
 ## 1.Create a new environment
