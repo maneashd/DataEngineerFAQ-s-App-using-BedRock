@@ -16,5 +16,5 @@ conda activate llmapp
 
 ## 3.Install the requirements package
 '''bash
-pip install requirements.txt
+pip install -r requirements.txt
 '''
