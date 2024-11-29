@@ -1,4 +1,5 @@
 # Data Engineering FAQ's with RAG using Bedrock
+
 ![Project Architecture](ScreenShots/Screenshot6.png)
 
 ## Overview
@@ -151,9 +152,11 @@ if __name__ == "__main__":
 # How the UI works.
 
 - Initial look of the UI.
+  
 ![User Interface](ScreenShots/Screenshot9.png)
 
 - Once the app is launched we click the Store Vector button, which in the back end collects the pdf document from the 'data' folder then uses the embedding model to create the vectors and save it in the 'faiss_local' folder.
+  
 ![Vector Store](ScreenShots/Screenshot1.png)
 
 
@@ -161,13 +164,16 @@ if __name__ == "__main__":
   
 ![Vector Store](ScreenShots/Screenshot2.png)
 
-- Once the process is clompleted it show 'Done'
+- Once the process is clompleted it show 'Done'.
+  
 ![Vector Store](ScreenShots/Screenshot3.png)
 
 - If we check the project folder two files with binary code will be created, which is our 'KNOWLEDGE BASE' with embeddings/vectors.
+  
 ![KB Files](ScreenShots/Screenshot4.png)
 
 - I provided the query and hit the 'send' button which will with in no time return me the response according to the prompt given to my app.
+  
 ![Response](ScreenShots/Screenshot5.png)
 
 #End of the Application
