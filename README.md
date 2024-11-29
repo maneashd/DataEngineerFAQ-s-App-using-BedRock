@@ -168,7 +168,7 @@ if __name__ == "__main__":
   
 ![Vector Store](ScreenShots/Screenshot3.png)
 
-- If we check the project folder two files with binary code will be created, which is our 'KNOWLEDGE BASE' with embeddings/vectors.
+- If we check the project folder two files with binary machine readable code will be created, which is our 'KNOWLEDGE BASE' with embeddings/vectors.
   
 ![KB Files](ScreenShots/Screenshot4.png)
 
