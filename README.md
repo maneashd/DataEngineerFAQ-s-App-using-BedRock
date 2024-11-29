@@ -159,6 +159,7 @@ if __name__ == "__main__":
 =============
 
 - Once the buton is clicked it will take time to process.
+- 
 ![Vector Store](ScreenShots/Screenshot2.png)
 
 - Once the process is clompleted it show 'Done'
