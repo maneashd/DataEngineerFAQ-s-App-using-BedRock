@@ -1,0 +1,5 @@
+1) What is a fact table in a dimensional model, and how does it differ from a dimension table?
+2) Explain the concept of a star schema. Why is it widely used in data warehouses?
+3) What are Slowly Changing Dimensions (SCD), and what are the different types of SCDs?
+4) What is the grain of a fact table, and why is it important to define it before designing the schema?
+5) Who is Maneash?
