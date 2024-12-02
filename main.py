@@ -1,3 +1,4 @@
+import os
 import boto3
 import streamlit as st
 from langchain.llms.bedrock import Bedrock
@@ -7,6 +8,13 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.vectorstores import FAISS
 from langchain.prompts import PromptTemplate
 from langchain.chains import RetrievalQA
+from dotenv import load_dotenv
+
+load_dotenv()
+YOUR_ACCESS_KEY = os.getenv("YOUR_ACCESS_KEY")
+YOUR_SECRET_KEY = os.getenv("YOUR_SECRET_KEY")
+REGION_NAME = os.getenv("REGION_NAME")
+
 
 # 1.1 Create a PromptTemplate for the GenAI app.
 
@@ -32,7 +40,12 @@ PROMPT = PromptTemplate(
 
 
 # 2.Bedrock client setup.
-bedrock = boto3.client(service_name='bedrock-runtime', region_name='us-east-1')
+bedrock = boto3.client(
+    service_name='bedrock-runtime', 
+    region_name=REGION_NAME,
+    aws_access_key_id=YOUR_ACCESS_KEY,
+    aws_secret_access_key=YOUR_SECRET_KEY)
+
 
 # 3.Get embeddings model from Bedrock.
 bedrock_embedding = BedrockEmbeddings(model_id="amazon.titan-embed-text-v1", client=bedrock)
