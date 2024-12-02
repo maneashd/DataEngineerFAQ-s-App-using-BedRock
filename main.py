@@ -98,11 +98,11 @@ def main():
     with st.sidebar:
         st.title("Create Knowledge Base once! Ask questions anytime!")
 
-        if st.button("Store Vector"):
-            with st.spinner("processing..."):
-                docs = get_documents()
-                get_embeddings(docs)
-                st.success("Done")
+        # if st.button("Store Vector"):
+        #     with st.spinner("processing..."):
+        #         docs = get_documents()
+        #         get_embeddings(docs)
+        #         st.success("Done")
 
         if st.button("Send"):
             with st.spinner("processing..."):
