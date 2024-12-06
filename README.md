@@ -28,7 +28,7 @@ from langchain.llms.bedrock import Bedrock    # Amazon Service to access all LLM
 from langchain.embeddings import BedrockEmbeddings    # To choose an embedding model among available in BedRock.
 from langchain.document_loaders import PyPDFDirectoryLoader    # Used to load the PDF files to feed our KnowledgeBase.
 from langchain.text_splitter import RecursiveCharacterTextSplitter    # This helps in creating the Chunks for our embedding model as it can take only limited tokens at once.
-from langchain.vectorstores import FAISS    # Acts as a VectorDB/KnowledgeBase to store the vectors/embeddings which can later be accessed by our LLM.
+from langchain.vectorstores import FAISS    # Acts as a VectorDB/KnowledgeBase to store the vectors/embeddings which can later be accessed by our LLM. FAISS is a #library designed for efficient similarity search and clustering of dense vectors. It is widely used in machine learning applications...
 from langchain.prompts import PromptTemplate    # Promot given to our LLM Application, refers how our application should work.
 from langchain.chains import RetrievalQA    # Since this application is a question and answer type, we use RetrievalQA.
 ```
